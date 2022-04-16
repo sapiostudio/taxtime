@@ -1,185 +1,308 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tax Resources for Small Business | Sapio Studio</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Resources for tax recordkeeping for small business sole proprietorships and single-member LLCs. Get lists of relevant information for bookkeeping and recordkeeping. ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../sapiostudio.github.io/css/all-style.css">
 
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
-  
-  <!--- source: https://www.w3schools.com/css/css_rwd_templates.asp -->
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+        .ss-row-padding img {margin-bottom: 12px}
+        /* Set the width of the sidebar to 120px */
+        .ss-sidebar {width: 120px;background: #5c2be2; color:#ffffff;}
+        /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+        #main {margin-left: 120px}
+        /* Remove margins from "page content" on small screens */
+        @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
 </head>
 
-<body class="w3-content" style="max-width:1300px">
+<body class="ss-white">
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="ss-sidebar ss-bar-block ss-small ss-hide-small ss-center">
+  <!-- Avatar image in top left corner -->
+  <a href="../sapiostudio.github.io/index.html">
+  <img src="../sapiostudio.github.io/img/sapiostudio-logo-bw-jpg.jpg" style="width:100%">
+  </a>
+  <a href="#" class="ss-bar-item ss-button ss-padding-large ss-black">
+    <i class="fa fa-home ss-xxlarge" aria-hidden="true"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#research" class="ss-bar-item ss-button ss-padding-large ss-hover-black">
+    <i class="fa fa-search ss-xxlarge" aria-hidden="true"></i>
+    <p>HOW TO RESEARCH</p>
+  </a>
+  <a href="#receipts" class="ss-bar-item ss-button ss-padding-large ss-hover-black">
+    <i class="fa fa-file-text ss-xxlarge" aria-hidden="true"></i>
+    <p>ABOUT TAX RECEIPTS</p>
+  </a>
+  <a href="#tracker" class="ss-bar-item ss-button ss-padding-large ss-hover-black">
+    <i class="fa fa-table ss-xxlarge" aria-hidden="true"></i>
+    <p>EXPENSE RECEIPT TRACKER</p>
+  </a>
+</nav>
 
-<!-- First Grid: Logo & About -->
-<div class="w3-row">
-  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
-    <div class="w3-padding-64">
-      <h1>My Logo</h1>
-    </div>
-    <div class="w3-padding-64">
-      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a>
-      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">My Work</a>
-      <a href="#work" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Resume</a>
-      <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Contact</a>
-    </div>
-  </div>
-  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
-    <div class="w3-padding-64 w3-center">
-      <h1>About Me</h1>
-      <img src="/w3images/avatar3.png" class="w3-margin w3-circle" alt="Person" style="width:50%">
-      <div class="w3-left-align w3-padding-large">
-        <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-        <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      </div>
-    </div>
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="ss-top ss-hide-large ss-hide-medium" id="myNavbar">
+  <div class="ss-bar ss-text-white ss-taxtime-background-color ss-center ss-small">
+    <a href="#" class="ss-bar-item ss-button" style="width:25% !important">HOME</a>
+    <a href="#research" class="ss-bar-item ss-button" style="width:25% !important">HOW TO RESEARCH</a>
+    <a href="#receipts" class="ss-bar-item ss-button" style="width:25% !important">ABOUT TAX RECEIPTS</a>
+    <a href="#tracker" class="ss-bar-item ss-button" style="width:25% !important">EXPENSE RECEIPT TRACKER</a>
   </div>
 </div>
 
-<!-- Second Grid: Work & Resume -->
-<div class="w3-row">
-  <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="work">
-    <div class="w3-padding-64">
-      <h2>My Work</h2>
-      <p>Some of my latest projects.</p>
-    </div>
-    <div class="w3-row">
-      <div class="w3-half">
-        <img src="/w3images/coffee.jpg" style="width:100%">
-      </div>
-      <div class="w3-half">
-        <img src="/w3images/workbench.jpg" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-row w3-hide-small">
-      <div class="w3-half">
-        <img src="/w3images/workbench.jpg" style="width:100%">
-      </div>
-      <div class="w3-half">
-        <img src="/w3images/coffee.jpg" style="width:100%">
-      </div>
-    </div>
+<!-- Page Content -->
+<div class="ss-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="ss-container ss-padding-32 ss-center ss-white" id="home">
+    <h1 class="ss-jumbo ss-taxtime-text-color"><span class="ss-hide-small">Common Questions </span>About Tax Receipts </h1>
+    <p>Resources for small business sole proprietorships and single member LLCs</p>
+  </header>
 
-    <div class="w3-row w3-hide-small">
-      <div class="w3-half">
-        <img src="/w3images/sound.jpg" style="width:100%">
-      </div>
-      <div class="w3-half">
-        <img src="/w3images/workbench.jpg" style="width:100%">
-      </div>
+  <div class="ss-content ss-justify ss-padding-64">
+    <h2 class="ss-taxtime-text-color">Who should use this site?</h2>
+    <hr style="width:200px" class="ss-opacity">
+    <p>These resources are best suited for small business sole proprietorships or single member LLCs with no employees and no cost of goods sold. 
+      The resources are for US Tax Form 1040 Schedule C expenses.
+      They are a collection of sources from around the web, as well as common sense advice.  There are <strong><u>no</u></strong> affiliate links here; 
+      we want to share this information because we genuinely think it might be helpful for our peers.
+    </p>
+    <h4>Disclaimer</h4>
+      <p>
+      PLEASE NOTE that we are not accountants, tax professionals, or lawyers.
+      The information provided on this website does not, and is not intended to, constitute accounting, tax, or legal advice; 
+      instead, all information, content, and materials available on this spreadsheet are for general informational purposes only.
+      The information, content, and materials on this website are provided "as is;" no representations are made that the information, content, and materials are error-free.
+      </p>
+  </div>
+
+  <!-- About Section -->
+  <div class="ss-content ss-justify ss-padding-64" id="research">
+    <h2 class="ss-taxtime-text-color">How to research tax questions online</h2>
+    <hr style="width:200px" class="ss-opacity">
+
+    <ul class="ss-ul">
+      <li><span class="ss-xlarge">1.</span> Type your question in your favorite search engine. Use an up-to-date tax software site, financial site, etc. from your search results</li>
+      <ul>
+        <li>These sites will break things down in a way that is often easier to understand than the IRS site.</li>
+      </ul>
+      <li><span class="ss-xlarge">2.</span> Then, go to the official IRS site. Search for the keywords of your question.</li>
+      <ul>
+        <li>Make sure you are looking at up-to-date info on the IRS site.  The site had a lot of old, outdated pages with information that may not apply to the current tax year.</li>
+      </ul>
+      <li><span class="ss-xlarge">3.</span> Use the combination of the above resources to make sure that you have a well-rounded answer to your question.</li>
+    </ul>
+
+  
+    <h3 class="ss-padding-16">Best research practices</h3>
+    <p class="ss-wide">Trusted online resources + IRS website</p>
+    <div class="ss-white">
+      <div class="ss-dark-grey" style="height:28px;width:100%"></div>
+    </div>
+    <p class="ss-wide">Trusted online resources</p>
+    <div class="ss-white">
+      <div class="ss-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+    <p class="ss-wide">IRS website</p>
+    <div class="ss-white">
+      <div class="ss-dark-grey" style="height:28px;width:20%"></div>
     </div><br>
-    <p>Just call me awesome.</p>
-  </div>
-  <div class="w3-half w3-indigo w3-container" style="min-height:800px">
-    <div class="w3-padding-64 w3-center">
-      <h2>Resume</h2>
-      <p>A draft from my CV</p>
-      <div class="w3-container w3-responsive">
-        <table class="w3-table">
-          <tr>
-            <th>Year</th>
-            <th>Title</th>
-            <th>Where</th>
-          </tr>
-          <tr class="w3-white">
-            <td>2012-2016</td>
-            <td>The rest is history..</td>
-            <td>Lorem ipsum</td>
-          </tr>
-          <tr>
-            <td>2009-2012</td>
-            <td>Started my own company</td>
-            <td>My Garage</td>
-          </tr>
-          <tr class="w3-white">
-            <td>2008-2009</td>
-            <td>Started working for Lorem</td>
-            <td>London, UK</td>
-          </tr>
-          <tr>
-            <td>2005-2008</td>
-            <td>Degree in Bachelor of Design</td>
-            <td>Harvard, USA</td>
-          </tr>
-          <tr class="w3-white">
-            <td>2002-2005</td>
-            <td>Degree in Bachelor of Business</td>
-            <td>RMIT University, Melbourne, Australia</td>
-          </tr>
-          <tr class="w3-hide-medium">
-            <td>2002-2005</td>
-            <td>Degree in Bachelor of Business</td>
-            <td>RMIT University, Melbourne, Australia</td>
-          </tr>
-        </table>
+
+    <!-- Grid for research links -->
+    <h3>Links</h3>
+    <div class="ss-row-padding" style="margin:0 -16px">
+      <div class="ss-half">
+        <h4>IRS</h4>
+        <p><a href="https://www.irs.gov/businesses/small-businesses-self-employed" target="_blank"  rel="noopener noreferrer nofollow" >Small Business Tax Center</a></p>
+        <p><a href="https://www.irs.gov/publications/p535#en_US_2020_publink100078332" target="_blank"  rel="noopener noreferrer nofollow" >Business expenses</a></p>
+        <p><a href="https://www.irs.gov/publications/p535#en_US_2020_publink100078332" target="_blank"  rel="noopener noreferrer nofollow" >Business expenses</a></p>
+      </div>
+
+      <div class="ss-half">
+        <h4>Other resources</h4>
+        <p><a href="https://turbotax.intuit.com/tax-tips/tax-planning-and-checklists/documents-you-should-save-for-tax-time/L1sk0a3uU" target="_blank"  rel="noopener noreferrer nofollow" >Documents You Should Save for Tax Time</a></p>
+        <p><a href="https://www.hrblock.com/tax-center/filing/adjustments-and-deductions/claim-business-expenses-documents/" target="_blank"  rel="noopener noreferrer nofollow" >Documents for home business</a></p>
+        <p><a href="https://www.thebalancesmb.com/business-equipment-vs-supplies-for-business-taxes-397638" target="_blank"  rel="noopener noreferrer nofollow" >Business equipment vs. Business supplies</a></p>
+       
+      </div>
+    <!-- End links grid -->
+    </div>
+    
+  </div><!-- #research-->
+  
+  <!-- Receipt Section -->
+  <div class="ss-padding-64 ss-content" id="receipts">
+    <h2 class="ss-taxtime-text-color">About tax receipts</h2>
+    <hr style="width:200px">
+
+    <p>Although there are apps that appear to help you organize your expense receipts, we don't have any recommendations. 
+      We like easy-to-use systems that offer the most control over our receipt data.
+      If you want to have more control over the process, here are some tips.
+    </p>
+
+    <ul class="ss-ul">
+      <li><span class="ss-xlarge">A.</span>  Decide on a taxonomy for your files. For example:</li>
+        <ul>
+          <li>year-category-mmddyyyy-vendor</li>
+          <li>vendor-mmddyyyy</li>
+          <li>mmyyyy-category-vendor</li>
+        </ul>
+      <li><span class="ss-xlarge">B.</span>  Decide how you will store your receipts. For example:</li>
+        <ul>
+
+          <li>Create pdf versions of your receipts via scanning or some other method. Options for storage include:</li>
+
+          <ul>
+            <li>Store the pdf versions in cloud storage (Dropbox, Google Drive, etc.).</li>
+            <li>Store the pdf versions of your receipts in a digital file on a USB, external harddrive, etc.  If you store it on your computer, be sure
+              that you backup your files somwhere external to the computer.
+            </li>
+          </ul>
+          
+          <li>If you just want to work with the physical receipt (no pdf), organize them in physical file folders and store in a box or cabinet.</li>
+
+            <ul>
+              <li><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>  Did you know that some receipts fade within weeks
+                (even when stored in cool dry place away from the sun)? 
+             To avoid this possibility, try making a copy of the receipt and stapling the original to the copy.</li>
+            </ul>
+
+        </ul>
+      
+    </ul><!-- .ss-ul -->
+
+    <h3 class="ss-padding-16">Choose one way to store receipts, and another as backup:</h3>
+    <div class="ss-row ss-center ss-padding-16 ss-section ss-light-grey">
+      <div class="ss-third ss-section">
+        <span class="ss-xlarge">Online</span><br>
+        (Cloud file storage)
+      </div>
+      <div class="ss-third ss-section">
+        <span class="ss-xlarge">Computer file</span><br>
+        (Store on USB or external hard drive)
+      </div>
+      <div class="ss-third ss-section">
+        <span class="ss-xlarge">Physical file</span><br>
+        (Store in files in file boxes)
       </div>
     </div>
-  </div>
-</div>
+  <!-- End Receipt Section -->
+    <h3>Receipt links</h3>
+    <!-- Grid for receipt links -->
+    <div class="ss-row-padding" style="margin:0 -16px">
+      <div class="ss-half">
+        <h4>IRS</h4>
+        <a href="" target="_blank"  rel="noopener noreferrer nofollow" ></a>
+        <p><a href="https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping" target="_blank"  rel="noopener noreferrer nofollow" >Recordkeeping</a></p>
 
-<!-- Third Grid: Swing By & Contact -->
-<div class="w3-row" id="contact">
-  <div class="w3-half w3-dark-grey w3-container w3-center" style="height:700px">
-    <div class="w3-padding-64">
-      <h1>Swing By</h1>
-    </div>
-    <div class="w3-padding-64">
-      <p>..for a cup of coffee, or whatever.</p>
-      <p>Chicago, US</p>
-      <p>+00 1515151515</p>
-      <p>test@test.com</p>
-    </div>
-  </div>
-  <div class="w3-half w3-teal w3-container" style="height:700px">
-    <div class="w3-padding-64 w3-padding-large">
-      <h1>Contact</h1>
-      <p class="w3-opacity">GET IN TOUCH</p>
-      <form class="w3-container w3-card w3-padding-32 w3-white" action="/action_page.php" target="_blank">
-        <div class="w3-section">
-          <label>Name</label>
-          <input class="w3-input" style="width:100%;" type="text" required name="Name">
-        </div>
-        <div class="w3-section">
-          <label>Email</label>
-          <input class="w3-input" style="width:100%;" type="text" required name="Email">
-        </div>
-        <div class="w3-section">
-          <label>Message</label>
-          <input class="w3-input" style="width:100%;" type="text" required name="Message">
-        </div>
-        <button type="submit" class="w3-button w3-teal w3-right">Send</button>
-      </form>
-    </div>
-  </div>
-</div>
+      </div>
 
-<!-- Footer -->
-<footer class="w3-container w3-black w3-padding-16">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
+      <div class="ss-half">
+        <h4>Other resources</h4>
+        <p><a href="https://turbotax.intuit.com/tax-tips/tax-planning-and-checklists/keeping-good-tax-records/L61fGcXtc" target="_blank"  rel="noopener noreferrer nofollow" >Keeping Good Records</a></p>
+        
+      </div>
+    <!-- End links grid -->
+    </div>
+  </div><!-- #receipts -->
+
+  <!-- Tracker Section -->
+  <div class="ss-padding-64 ss-content" id="tracker">
+    <h2 class="ss-taxtime-text-color">Get a tax receipt tracker now</h2>
+    <hr style="width:200px" class="ss-opacity">
+
+    <div class="ss-section">
+      <p><i class="fa fa-google fa-fw ss-xxlarge ss-margin-right" aria-hidden="true"></i> Google Sheets</p>
+      <p></p><i class="fa fa-file-excel-o fa-fw ss-xxlarge ss-margin-right" aria-hidden="true"></i> Microsoft Excel</p>
+    </div><br>
+    <p>
+      <i class="fa fa-hand-o-right ss-xlarge" aria-hidden="true"></i>
+        For anyone out there that runs a small business, it doesn't seem small when you're in the thick of it.  
+      And when you do it all yourself, time is money.  You can't afford to have unorganized tax expense receipts when your tax to-do list is a mile long. 
+      <br><br>
+      <i class="fa fa-hand-o-right ss-xlarge" aria-hidden="true"></i>
+        With Tax Form 1040 Schedule C Expense Receipt Tracker, you can rest assured that your expense receipts are in order and focus on how to take your small business to the next level. Level up! 
+      <br><br>
+      <i class="fa fa-hand-o-right ss-xlarge" aria-hidden="true"></i>
+        The Schedule C Expense Receipt Tracker lets you enter receipt details right from your computer and saves you money in the process 
+      so you can spend less time worrying about accurately reporting your expenses and more time making your customers happy. 
+  </p>
+
+    <!-- Grid for pricing tables -->
+    <h3 class="ss-padding-16 ss-text-grey">Our trackers</h3>
+    <div class="ss-row-padding" style="margin:0 -16px">
+      <div class="ss-half ss-margin-bottom">
+        <ul class="ss-ul ss-white ss-center ss-opacity ss-hover-opacity-off">
+          <li class="ss-dark-grey ss-xlarge ss-padding-32">Google Sheets</li>
+          <li class="ss-padding-16">Receipt logger</li>
+          <li class="ss-padding-16">Totals by Schedule C expense category and chart</li>
+          <li class="ss-padding-16">Create your own expense sub-categories</li>
+          <li class="ss-padding-16">Trip labels for related travel expenses</li>
+          <li class="ss-padding-16">
+            <h2>$ 19.99</h2>
+            <span class="ss-opacity">one-time payment</span>
+          </li>
+          <li class="ss-light-grey ss-padding-24">
+            <a href="https://www.etsy.com/listing/1197154877/easy-tax-deduction-receipt-tracker-for" target="_blank"  rel="noopener noreferrer nofollow"><button class="ss-button ss-white ss-padding-large ss-hover-black">Buy now</button></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="ss-half">
+        <ul class="ss-ul ss-white ss-center ss-opacity ss-hover-opacity-off">
+          <li class="ss-dark-grey ss-xlarge ss-padding-32">MS Excel</li>
+          <li class="ss-padding-16">Everything included in Google Sheets, plus:</li>
+          <li class="ss-padding-16">.xslx format</li>
+          <li class="ss-padding-16">Works with Excel 2010 or later</li>
+          <li class="ss-padding-16">Easy to Use</li>
+          <li class="ss-padding-16">
+            <h2>$ 21.99</h2>
+            <span class="ss-opacity">one-time payment</span>
+          </li>
+          <li class="ss-light-grey ss-padding-24">
+            <a href="https://www.etsy.com/listing/1202499719/excel-easy-tax-deduction-receipt-tracker" target="_blank"  rel="noopener noreferrer nofollow"><button class="ss-button ss-white ss-padding-large ss-hover-black">Buy now</button></a>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+
+  <!-- End Tracker Section -->
+  </div>
   
-  
-  
-  <script src="js/vendor/modernizr-3.11.8.min.js"></script>
-  <script src="js/app.js"></script>
+    <!-- Footer -->
+  <footer class="ss-content ss-padding-64 ss-text-grey ss-xlarge">
+    <p class="ss-medium">Copyright &copy; 2022 <a href="https://sapiostudio.github.io" target="_blank" class="ss-hover-text-green">SapioStudio</a> | All Rights Reserved</p>
+    <p class="ss-small"> Disclaimer: The information provided on this website does not, and is not intended to, constitute accounting, tax, or legal advice; 
+      instead, all information, content, and materials available on this spreadsheet are for general informational purposes only. 
+      The information, content, and materials on this website are provided "as is;" 
+      no representations are made that the information, content, and materials are error-free.</p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
 
 </body>
-
 </html>
